@@ -1,3 +1,17 @@
+# StagedHomes Gatsby and Docker
+## Gatsby Project
+We are using this gatsby project to gain fast page load, and better SEO, for the
+particular pages that can benefit from it,and that don't need to immediately be
+part of our normal application.
+
+## Docker
+The docker files here, are for our qa/staging/prod environments, where the image
+will be spun up with the /public build copied into the image, and then deployed.
+
+---
+
+## Gatsby Readme Stuff
+
 <p align="center">
   <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
