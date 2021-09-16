@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  site:
+    build: .
+    volumes:
+      - "./assets/sh-gatsby/public:/pub"
+    ports:
+      - "8863:80"
+    restart: unless-stopped
+    container_name: stagedhomes-gatsby
+    #environment:
+      #PUBLIC_PATH: /var/www/html
+      #HTTP_PORT: 80
+    networks:
+      - sh-dev
+
+networks:
+  sh-dev:
+    external: true
