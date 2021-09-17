@@ -1,0 +1,283 @@
+#main-page .background-img-promo {
+  background: url(https://d2itdnqewolu1g.cloudfront.net/images/the-project/stagedhomes/background-img-promo.jpg);
+  background-size: 80em auto;
+  background-repeat: no-repeat
+}
+
+#main-page .background-img-promo-3 {
+  background: url(https://d2itdnqewolu1g.cloudfront.net/images/coronavirus-covid-19-shc.jpg);
+  background-size: 80em auto;
+  background-repeat: no-repeat
+}
+
+#main-page .background-img-promo-2 {
+  background: url(https://d2itdnqewolu1g.cloudfront.net/images/earth-wallpaper.jpg);
+  background-size: 80em auto;
+  background-repeat: no-repeat
+}
+
+#main-page .background-img-promo-2 .description {
+  font-size: 26px;
+  color: #2d2926
+}
+
+#main-page .background-img-promo-1 {
+  background: url(https://d2itdnqewolu1g.cloudfront.net/images/the-project/stagedhomes/gold-lights-and-sparcles-background.png);
+  background-size: 80em auto;
+  background-repeat: no-repeat
+}
+
+#main-page .background-img-promo-1 .description {
+  font-size: 30px;
+  line-height: 1.2;
+  color: #2d2926
+}
+
+#main-page .holiday-promo {
+  background: url(https://d2itdnqewolu1g.cloudfront.net/images/stagedhomes-holiday-promo-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover
+}
+
+#main-page .usa-promo {
+  background: url(https://d2itdnqewolu1g.cloudfront.net/images/usa-staged-homes-grant.jpg);
+  background-repeat: no-repeat;
+  background-size: cover
+}
+
+.testimonial-bg {
+  background: url(https://d2itdnqewolu1g.cloudfront.net/images/the-project/stagedhomes/Bamboo-dark.jpg);
+  background-size: cover;
+  background-repeat: no-repeat
+}
+
+.talk-show-bg {
+  background: url(https://d2itdnqewolu1g.cloudfront.net/images/the-project/stagedhomes/podcast-microphone.jpg);
+  background-size: cover;
+  background-repeat: no-repeat
+}
+
+.header-shc-barb-main {
+  display: block;
+  position: absolute;
+  left: 60%;
+  top: 359px;
+  width: 450px;
+  z-index: 2
+}
+
+.header-shc-barb-main-section-left {
+  display: table-cell;
+  position: relative;
+  float: left;
+  margin-top: 150px;
+  width: 250px;
+  text-align: right;
+  color: #fff
+}
+
+.header-shc-barb-main-section-right {
+  float: right;
+  display: table-cell
+}
+
+.header-shc-asplogo {
+  display: block;
+  position: absolute;
+  left: 91%;
+  z-index: 2
+}
+
+.header-shc-asplogo-img {
+  width: 75px;
+  height: auto
+}
+
+.homepage-right-banner {
+  max-width: 200px;
+  max-height: auto
+}
+
+.collapse-style-2 .panel-heading a.collapsed {
+  background-color: #c7ac56
+}
+
+.collapse-style-2 .panel-heading a {
+  background-color: #ae9749
+}
+
+.collapse-style-2 .panel-body {
+  padding: 15px
+}
+
+.panel-default>.panel-heading {
+  color: #fff;
+  background-color: #c7ac56
+}
+
+@media(min-width:1200px) {
+  #main-page .header-shc-asplogo {
+    left: 83%;
+    padding-top: 8px!important;
+    display: flex!important
+  }
+}
+
+@media(min-width:992px) and (max-width:1199px) {
+  #main-page .header-shc-asplogo {
+    left: 79%;
+    padding-top: 8px!important;
+    display: flex!important
+  }
+}
+
+@media(min-width:992px) {
+  #main-page .background-img-promo-1 .description {
+    text-align: left;
+    margin-top: 8px
+  }
+  #main-page .background-img-promo-1 .btn {
+    margin-top: 25px
+  }
+  #main-page .background-img-promo-2 .description {
+    text-align: left;
+    margin-top: 25px
+  }
+  #main-page .background-img-promo-2 .btn {
+    margin-top: 55px
+  }
+  #main-page .usa-promo .btn {
+    margin-top: 28px
+  }
+  #main-page .eu-promo .btn {
+    margin-top: 40px
+  }
+}
+
+@media screen and (max-width:479px) {
+  .medium_white {
+    font-size: 9px;
+    font-weight: 700;
+    color: #000;
+    -webkit-text-stroke: 1px #fff
+  }
+  .large_white {
+    font-size: 14px;
+    font-family: raleway, sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #000;
+    -webkit-text-stroke: .5px #fff;
+    text-shadow: 2px 2px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff
+  }
+}
+
+@media screen and (min-width:481px) {
+  .medium_white {
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+    -webkit-text-stroke: 1px #fff
+  }
+  .large_white {
+    font-size: 24px;
+    font-family: raleway, sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #000;
+    -webkit-text-stroke: 1px #fff;
+    text-shadow: 2px 2px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff
+  }
+}
+
+@media screen and (min-width:768px) {
+  .slider-content-wrapper {
+    background-color: rgba(255, 255, 255, .6);
+    line-height: 30px;
+    padding-left: 400px;
+    padding-right: 400px
+  }
+  .medium_white {
+    font-size: 17px;
+    font-weight: 700;
+    color: #000;
+    -webkit-text-stroke: 0 #fff
+  }
+  .large_white {
+    font-size: 30px;
+    font-family: raleway, sans-serif;
+    font-weight: 700;
+    line-height: .9;
+    color: #000;
+    -webkit-text-stroke: 0 #fff;
+    text-shadow: 0 0 0 #fff, 0 0 0 #fff, 0 0 0 #fff, 0 0 0 #fff, 0 0 0 #fff
+  }
+}
+
+@media screen and (min-width:993px) {
+  .slider-content-wrapper {
+    background-color: rgba(255, 255, 255, .6);
+    line-height: 30px;
+    padding-top: 10px;
+    padding-right: 500px;
+    padding-left: 500px
+  }
+  .medium_white {
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+    -webkit-text-stroke: 0 #fff
+  }
+  .large_white {
+    font-size: 42px;
+    font-family: raleway, sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #000;
+    -webkit-text-stroke: 0 #fff;
+    text-shadow: 0 0 0 #fff, 0 0 0 #fff, 0 0 0 #fff, 0 0 0 #fff, 0 0 0 #fff
+  }
+}
+
+#free-60-min-webinar {
+  background-color: #f3efe6;
+  border-color: #bd9f47;
+  border-width: 2px
+}
+
+.free60-3rd-line {
+  font-size: 18px;
+  color: #35895e;
+  -webkit-text-stroke: 1px #000
+}
+
+.vertical-center {
+  min-height: 100%;
+  display: flex;
+  align-items: center
+}
+
+#free-60-min-webinar>.panel-footer {
+  background-color: #bd9f47;
+  border-color: #bd9f47;
+  color: #fff;
+  text-shadow: #000 2px 2px 6px
+}
+
+#free-60-min-webinar>.panel-footer>a:link {
+  color: #fff
+}
+
+#free-60-min-webinar>.panel-body {
+  padding: 1px
+}
+
+.modal-footer .btn+.btn {
+  margin-bottom: 10px
+}
+
+.inman-border {
+  border: 2px solid #69c8ec;
+  padding: 15px;
+  border-radius: 15px
+}

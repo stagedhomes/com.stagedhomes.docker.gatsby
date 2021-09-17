@@ -1,5 +1,27 @@
-.header {
-  border-top: 1px solid #fff;
-  border-bottom: 2px solid #f1f1f1;
-  background-color: #fcfcfc;
+.navbar {
+  &.navbar-default {
+    padding: 0;
+  }
+
+  .nav-link {
+    line-height: 20px;
+  }
 }
+
+.list-inline-item {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.list-inline-item:not(:last-child) {
+    margin-right: 0;
+}
+
+#logo_img {
+  max-width: 165px;
+}
+
+.header-top {
+  .btn-group {
+    margin-left: 3px !important;
+  }
+} 
