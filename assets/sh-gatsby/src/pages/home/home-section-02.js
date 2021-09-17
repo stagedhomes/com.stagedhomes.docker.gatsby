@@ -16,24 +16,27 @@ const  Section02 = () => {
       { /* ================ */ }
       <div className="slideshow">
 
-        { /* ASP Logo */ }
-        <ul className="header-shc-asplogo list-style-none visible-md visible-lg">
-          <li><img src="https://d2itdnqewolu1g.cloudfront.net/images/the-project/stagedhomes/ASP-Logo_Transparent-BG.png"
-              alt="ASP" className="header-shc-asplogo-img" /></li>
-          <li><img src="https://d2itdnqewolu1g.cloudfront.net/images/the-project/stagedhomes/iahsp-approved-course.png"
-              alt="ASP" className="header-shc-asplogo-img" /></li>
-        </ul>
 
         { /* slider revolution */ }
         { /* ================ */ }
         <div className="slider-banner-container" style={bannerStyles}>
-          <div className="slider-banner-fullwidth">
-            <ul className="slides" style={slidesStyles}>
+          <div id="shCarousel1" className="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div className="carousel-indicators">
+              <button type="button" data-bs-target="#shCarousel1" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#shCarousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#shCarousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#shCarousel1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#shCarousel1" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#shCarousel1" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              <button type="button" data-bs-target="#shCarousel1" data-bs-slide-to="6" aria-label="Slide 7"></button>
+              <button type="button" data-bs-target="#shCarousel1" data-bs-slide-to="7" aria-label="Slide 8"></button>
+              <button type="button" data-bs-target="#shCarousel1" data-bs-slide-to="8" aria-label="Slide 9"></button>
+            </div>
+            <ul className="carousel-inner" style={slidesStyles}>
 
               { /* slide */ }
               { /* ================ */ }
-              <li data-transition="fade" data-slotamount="1" data-masterspeed="500"
-                data-saveperformance="on" data-title="Earn a Home Staging Industry Accreditation">
+              <li className="carousel-item active" data-title="Earn a Home Staging Industry Accreditation">
 
                 { /* main image */ }
                 <img src="https://d2itdnqewolu1g.cloudfront.net/images/the-project/stagedhomes/shc-home-page.jpg"
@@ -45,8 +48,7 @@ const  Section02 = () => {
                                 </div> */ }
 
                   { /* Main Contents */ }
-                <div className="tp-caption sfb fadeout text-center" data-x="center" data-y="110"
-                  data-speed="550" data-start="100" data-easing="easeOutQuad">
+                <div className="carousel-caption d-none d-md-block">
                   <div className="slider-content-wrapper">
 
                     { /* LAYER NR. 1 */ }
@@ -83,9 +85,7 @@ const  Section02 = () => {
 
               { /* slide start */ }
               { /* ================ */ }
-              <li data-transition="fade" data-slotamount="1" data-masterspeed="500"
-                data-saveperformance="on"
-                data-title="Professional Home Staging Classes from the company that started the industry...">
+              <li className="carousel-item" data-title="Professional Home Staging Classes from the company that started the industry...">
 
                 { /* main image */ }
                 <img src="https://d2itdnqewolu1g.cloudfront.net/images/couch-with-colorful-pillows.jpg"
@@ -97,8 +97,7 @@ const  Section02 = () => {
                                 </div> */ }
 
                   { /* Main Contents */ }
-                <div className="tp-caption sfb fadeout text-center" data-x="center" data-y="110"
-                  data-speed="550" data-start="100" data-easing="easeOutQuad">
+                <div className="carousel-caption d-none d-md-block">
                   <div className="slider-content-wrapper">
 
                     { /* LAYER NR. 1 */ }
@@ -133,8 +132,7 @@ const  Section02 = () => {
 
               { /* slide start */ }
               { /* ================ */ }
-              <li data-transition="fade" data-slotamount="1" data-masterspeed="500"
-                data-saveperformance="on" data-title="Be Featured">
+              <li className="carousel-item" data-title="Be Featured">
 
                 { /* main image */ }
                 <img src="https://d2itdnqewolu1g.cloudfront.net/images/two-glass-cups-facing-backyard.jpg"
@@ -146,8 +144,7 @@ const  Section02 = () => {
                                 </div> */ }
 
                   { /* Main Contents */ }
-                <div className="tp-caption sfb fadeout text-center" data-x="center" data-y="110"
-                  data-speed="550" data-start="100" data-easing="easeOutQuad">
+                <div className="carousel-caption d-none d-md-block">
                   <div className="slider-content-wrapper">
 
                     { /* LAYER NR. 1 */ }
@@ -183,8 +180,7 @@ const  Section02 = () => {
 
               { /* slide start */ }
               { /* ================ */ }
-              <li data-transition="fade" data-slotamount="1" data-masterspeed="500"
-                data-saveperformance="on" data-title="ASP&reg; Directory">
+              <li className="carousel-item" data-title="ASP&reg; Directory">
 
                 { /* main image */ }
                 <img src="https://d2itdnqewolu1g.cloudfront.net/images/the-project/stagedhomes/banner-default.png"
@@ -196,8 +192,7 @@ const  Section02 = () => {
                                 </div> */ }
 
                 { /* Main Contents */ }
-                <div className="tp-caption sfb fadeout text-center" data-x="center" data-y="110"
-                  data-speed="550" data-start="100" data-easing="easeOutQuad">
+                <div className="carousel-caption d-none d-md-block">
                   <div className="slider-content-wrapper">
                     { /* LAYER NR. 1 */ }
                     <div className="large_white">
@@ -233,8 +228,7 @@ const  Section02 = () => {
 
               { /* slide start */ }
               { /* ================ */ }
-              <li data-transition="fade" data-slotamount="1" data-masterspeed="500"
-                data-saveperformance="on" data-title="Staging University&reg;">
+              <li className="carousel-item" data-title="Staging University&reg;">
 
                 { /* main image */ }
                 <img src="https://d2itdnqewolu1g.cloudfront.net/images/the-project/stagedhomes/banner-default.png"
@@ -246,8 +240,7 @@ const  Section02 = () => {
                                 </div> */ }
 
                 { /* Main Contents */ }
-                <div className="tp-caption sfb fadeout text-center" data-x="center" data-y="110"
-                  data-speed="550" data-start="100" data-easing="easeOutQuad">
+                <div className="carousel-caption d-none d-md-block">
                   <div className="slider-content-wrapper">
 
                     { /* LAYER NR. 1 */ }
@@ -283,8 +276,7 @@ const  Section02 = () => {
 
               { /* slide start */ }
               { /* ================ */ }
-              <li data-transition="fade" data-slotamount="1" data-masterspeed="500"
-                data-saveperformance="on" data-title="Vendor Savings">
+              <li className="carousel-item" data-title="Vendor Savings">
 
                 { /* main image */ }
                 <img src="https://d2itdnqewolu1g.cloudfront.net/images/the-project/stagedhomes/banner-default.png"
@@ -296,8 +288,7 @@ const  Section02 = () => {
                                 </div> */ }
 
                 { /* Main Contents */ }
-                <div className="tp-caption sfb fadeout text-center" data-x="center" data-y="110"
-                  data-speed="550" data-start="100" data-easing="easeOutQuad">
+                <div className="carousel-caption d-none d-md-block">
                   <div className="slider-content-wrapper">
 
                     { /* LAYER NR. 1 */ }
@@ -332,7 +323,7 @@ const  Section02 = () => {
 
               { /* slide */ }
               { /* ================ */ }
-              <li data-transition="fade" data-slotamount="1" data-masterspeed="500"
+              <li className="carousel-item" data-transition="fade" data-slotamount="1" data-masterspeed="500"
                 data-saveperformance="on"
                 data-title="International Association of <br />Home Staging Professionals<sup>&reg;</sup>">
 
@@ -346,8 +337,7 @@ const  Section02 = () => {
                                 </div> */ }
 
                 { /* Main Contents */ }
-                <div className="tp-caption sfb fadeout text-center" data-x="center" data-y="110"
-                  data-speed="550" data-start="100" data-easing="easeOutQuad">
+                <div className="carousel-caption d-none d-md-block">
                   <div className="slider-content-wrapper">
 
                     { /* LAYER NR. 1 */ }
@@ -384,7 +374,7 @@ const  Section02 = () => {
 
               { /* slide  */ }
               { /* ================ */ }
-              <li data-transition="fade" data-slotamount="1" data-masterspeed="500"
+              <li className="carousel-item" data-transition="fade" data-slotamount="1" data-masterspeed="500"
                 data-saveperformance="on" data-title="Continuous Support">
 
                 { /* main image */ }
@@ -397,8 +387,7 @@ const  Section02 = () => {
                                 </div> */ }
 
                 { /* Main Contents */ }
-                <div className="tp-caption sfb fadeout text-center" data-x="center" data-y="110"
-                  data-speed="550" data-start="100" data-easing="easeOutQuad">
+                <div className="carousel-caption d-none d-md-block">
                   <div className="slider-content-wrapper">
                     { /* LAYER NR. 1 */ }
                     <div className="large_white">
@@ -432,7 +421,7 @@ const  Section02 = () => {
 
               { /* slide  */ }
               { /* ================ */ }
-              <li data-transition="fade" data-slotamount="1" data-masterspeed="500"
+              <li className="carousel-item" data-transition="fade" data-slotamount="1" data-masterspeed="500"
                 data-saveperformance="on" data-title="Plus 33 Other Reasons Why">
 
                 { /* main image */ }
@@ -445,8 +434,7 @@ const  Section02 = () => {
                                 </div> */ }
 
                 { /* Main Contents */ }
-                <div className="tp-caption sfb fadeout text-center" data-x="center" data-y="110"
-                  data-speed="550" data-start="100" data-easing="easeOutQuad">
+                <div className="carousel-caption d-none d-md-block">
                   <div className="slider-content-wrapper">
 
                     { /* LAYER NR. 1 */ }
@@ -480,6 +468,14 @@ const  Section02 = () => {
               { /* /slide */ }
             </ul>
             <div className="tp-bannertimer"></div>
+            <button className="carousel-control-prev" type="button" data-bs-target="#shCarousel1" data-bs-slide="prev">
+              <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span className="visually-hidden">Previous</span>
+            </button>
+            <button className="carousel-control-next" type="button" data-bs-target="#shCarousel1" data-bs-slide="next">
+              <span className="carousel-control-next-icon" aria-hidden="true"></span>
+              <span className="visually-hidden">Next</span>
+            </button>
           </div>
         </div> { /* /slider revolution */ }
       </div> { /* /slideshow */ }

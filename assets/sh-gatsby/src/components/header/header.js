@@ -12,29 +12,29 @@ const  Header = () => {
 
               <div className="header-top-first clearfix">
                 <ul className="social-links circle small clearfix hidden-xs">
-                  <li className="facebook"><a target="_blank" rel="noopener" href="https://www.facebook.com/stagedhomes" onClick="ga('send', 'event', 'social facebook', 'click', 'header');"><i className="fa fa-facebook"></i></a></li>
-                  <li className="twitter"><a target="_blank" rel="noopener" href="https://twitter.com/stagedhomescom" onClick="ga('send', 'event', 'social twitter', 'click', 'header');"><i className="fa fa-twitter"></i></a></li>
-                  <li className="linkedin"><a target="_blank" rel="noopener" href="https://www.linkedin.com/in/jennie-norris-aspm-iahsp-2705159" onClick="ga('send', 'event', 'social linkedin', 'click', 'header');"><i className="fa fa-linkedin"></i></a></li>
-                  <li className="youtube"><a target="_blank" rel="noopener" href="https://www.youtube.com/user/stagedhomesvideos" onClick="ga('send', 'event', 'social youtube', 'click', 'header');"><i className="fa fa-youtube-play"></i></a></li>
-                  <li className="pinterest"><a target="_blank" rel="noopener" href="https://www.pinterest.com/jenniestager/" onClick="ga('send', 'event', 'social pintrest', 'click', 'header');"><i className="fa fa-pinterest"></i></a></li>
-                  <li className="twitter"><a target="_blank" rel="noopener" href="https://drive.google.com/open?id=1Ih49GNKiHagKM5mxc1ZBTH8gCYtgvLv3" onClick="ga('send', 'event', 'social google business page', 'click', 'header');"><i className="fa fa-home"></i></a></li>
+                  <li className="facebook"><a target="_blank" rel="noreferrer" href="https://www.facebook.com/stagedhomes"><i className="fa fa-facebook"></i></a></li>
+                  <li className="twitter"><a target="_blank" rel="noreferrer" href="https://twitter.com/stagedhomescom"><i className="fa fa-twitter"></i></a></li>
+                  <li className="linkedin"><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/jennie-norris-aspm-iahsp-2705159"><i className="fa fa-linkedin"></i></a></li>
+                  <li className="youtube"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/user/stagedhomesvideos"><i className="fa fa-youtube-play"></i></a></li>
+                  <li className="pinterest"><a target="_blank" rel="noreferrer" href="https://www.pinterest.com/jenniestager/"><i className="fa fa-pinterest"></i></a></li>
+                  <li className="twitter"><a target="_blank" rel="noreferrer" href="https://drive.google.com/open?id=1Ih49GNKiHagKM5mxc1ZBTH8gCYtgvLv3"><i className="fa fa-home"></i></a></li>
                 </ul>
                 <div className="social-links d-none circle small">
                   <div className="btn-group dropdown">
                     <button type="button" className="btn dropdown-toggle" data-toggle="dropdown"><i className="fa fa-share-alt"></i></button>
                     <ul className="dropdown-menu dropdown-animation">
-                      <li className="facebook"><a target="_blank" rel="noopener" href="https://www.facebook.com/stagedhomes" onClick="ga('send', 'event', 'social facebook', 'click', 'header');"><i className="fa fa-facebook"></i></a></li>
-                      <li className="twitter"><a target="_blank" rel="noopener" href="https://twitter.com/stagedhomescom" onClick="ga('send', 'event', 'social twitter', 'click', 'header');"><i className="fa fa-twitter"></i></a></li>
-                      <li className="linkedin"><a target="_blank" rel="noopener" href="https://www.linkedin.com/in/jennie-norris-aspm-iahsp-2705159" onClick="ga('send', 'event', 'social linkedin', 'click', 'header');"><i className="fa fa-linkedin"></i></a></li>
-                      <li className="youtube"><a target="_blank" rel="noopener" href="https://www.youtube.com/user/stagedhomesvideos" onClick="ga('send', 'event', 'social youtube', 'click', 'header');"><i className="fa fa-youtube-play"></i></a></li>
-                      <li className="pinterest"><a target="_blank" rel="noopener" href="https://www.pinterest.com/jenniestager/" onClick="ga('send', 'event', 'social pintrest', 'click', 'header');"><i className="fa fa-pinterest"></i></a></li>
-                      <li className="twitter"><a target="_blank" rel="noopener" href="https://drive.google.com/open?id=1Ih49GNKiHagKM5mxc1ZBTH8gCYtgvLv3" onClick="ga('send', 'event', 'social google business page', 'click', 'header');"><i className="fa fa-home"></i></a></li>
+                      <li className="facebook"><a target="_blank" rel="noreferrer" href="https://www.facebook.com/stagedhomes"><i className="fa fa-facebook"></i></a></li>
+                      <li className="twitter"><a target="_blank" rel="noreferrer" href="https://twitter.com/stagedhomescom"><i className="fa fa-twitter"></i></a></li>
+                      <li className="linkedin"><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/jennie-norris-aspm-iahsp-2705159"><i className="fa fa-linkedin"></i></a></li>
+                      <li className="youtube"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/user/stagedhomesvideos"><i className="fa fa-youtube-play"></i></a></li>
+                      <li className="pinterest"><a target="_blank" rel="noreferrer" href="https://www.pinterest.com/jenniestager/"><i className="fa fa-pinterest"></i></a></li>
+                      <li className="twitter"><a target="_blank" rel="noreferrer" href="https://drive.google.com/open?id=1Ih49GNKiHagKM5mxc1ZBTH8gCYtgvLv3"><i className="fa fa-home"></i></a></li>
                     </ul>
                   </div>
                 </div>
                 <ul className="list-inline hidden-sm hidden-xs">
-                  <li className="list-inline-item"><i className="fa fa-phone pr-5 pl-10"></i><a className="text-bold text-14 text-black" onClick="ga('send', 'event', 'phone number', 'click', 'header');" href="https://pages.stagedhomes.com/contact-us/">+1 800 392 7161</a></li>
-                  <li className="list-inline-item"><i className="fa fa-envelope-o pr-5 pl-10"></i> <a className="text-bold text-14 text-black" href="https://pages.stagedhomes.com/contact-us/" onClick="ga('send', 'event', 'email address', 'click', 'header');">ASPCourses@StagedHomes.com</a></li>
+                  <li className="list-inline-item"><i className="fa fa-phone pr-5 pl-10"></i><a className="text-bold text-14 text-black">+1 800 392 7161</a></li>
+                  <li className="list-inline-item"><i className="fa fa-envelope-o pr-5 pl-10"></i> <a className="text-bold text-14 text-black" href="https://pages.stagedhomes.com/contact-us/">ASPCourses@StagedHomes.com</a></li>
                 </ul>
               </div>
 
