@@ -1,3 +1,6 @@
+body a {
+  color: #b0984d;
+}
 .slider-banner-container {
   width: 100%;
   height: 450px;
@@ -31,4 +34,28 @@
       padding-right: 0;
     }
   }
+}
+
+#shCarousel2 {
+  height: 340px;
+  width: 100%;
+
+  blockquote:after {
+    content: "\201C";
+  }
+}
+
+.card {
+  .card-header {
+    color: #fff;
+    background-color: #c7ac56;
+  }
+
+  .nowrap {
+    white-space: nowrap;
+  }
+}
+
+strong {
+  font-weight: bold;
 }
